@@ -60,7 +60,7 @@ var customConfiguration = function webpackConfig() {
             minify: {
                 collapseWhitespace: true
             },
-            template: 'src/index.html'
+            template: 'src/templates/index.html'
         }),
 
         new CopyWebpackPlugin([
