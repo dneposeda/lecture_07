@@ -11,7 +11,9 @@
     <a href="https://www.w3.org/TR/css-flexbox-1/">
         <img width="200" height="100" src="https://i.ytimg.com/vi/JVYVDpdvdMo/maxresdefault.jpg">
     </a>
-    <h1>lecture_07 -Flexbox layout</h1>
-     <p>Loads a Sass/SCSS file and compiles it to CSS.</p>
+    <h1>lecture_07 - Flexbox layout</h1>
 </div>
+
+Builds [node.js](https://nodejs.org/en/) based docker image and deploys docker container that installs dependencies stated in ```package.json``` file and compiles code with webpack into ```'dist'``` directory. 
+#
 
