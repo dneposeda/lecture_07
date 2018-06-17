@@ -2,7 +2,7 @@
 
 // const NODE_ENV           = process.env.NODE_ENV || 'development';
 const path                 = require('path');
-const constants             = require("./constants");
+const constants            = require("./constants");
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin    = require('html-webpack-plugin');
 const CopyWebpackPlugin    = require('copy-webpack-plugin');
@@ -65,7 +65,8 @@ var customConfiguration = function webpackConfig() {
 
         new CopyWebpackPlugin([
             //{ from: "src/css/index.css" },
-            { from: 'src/assets', to: 'assets' }
+            { from: 'src/assets', to: 'assets' },
+            { from: 'user_files', to: 'user_files' }
         ])
     ];
 

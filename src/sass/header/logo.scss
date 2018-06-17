@@ -1,0 +1,15 @@
+.Logo {
+    &--textColor_dark {
+        color:$text-dark-color
+    }
+
+    &-title {
+        @include formatText (inherit, 36px, 400, 36px);
+        color: $logo-title-color;
+        margin: 0 0 16px 0;
+    }
+
+    &-text {
+        @include formatText (inherit, 13px, 400, 13px);;
+    }
+}

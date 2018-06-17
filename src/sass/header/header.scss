@@ -1,0 +1,9 @@
+.Header {
+    height: 120px;
+    background: #ffffff;
+
+    &-container {
+        @include flexContainer (space-between, center);
+        height: 100%;
+    }
+}

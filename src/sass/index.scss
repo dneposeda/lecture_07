@@ -1,0 +1,24 @@
+@import 'helpers/variables.scss';
+@import 'helpers/mixins.scss';
+@import 'helpers/fonts.scss';
+@import 'common/wrapper.scss';
+@import 'common/container.scss';
+@import 'common/link.scss';
+@import 'header/header.scss';
+@import 'header/logo.scss';
+@import 'header/navigation_bar.scss';
+/* @import 'slider/slider.scss';
+@import 'information/information.scss';
+@import 'gallery/gallery.scss';
+@import 'footer/footer.scss';
+@import 'footer/newsletter.scss';
+@import 'footer/social.scss';
+@import 'footer/blog.scss';
+@import 'footer/twitter.scss'; */
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: $mainFont;
+}

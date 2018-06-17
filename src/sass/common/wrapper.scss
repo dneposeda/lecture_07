@@ -1,0 +1,22 @@
+.Wrapper {
+    margin: auto;
+    max-width: 1000px;
+    background: $wrapper-bg-color;
+    padding: 1px;
+
+    &-header {
+        margin-bottom: 40px;    
+    }
+
+    &-slider {
+        margin-bottom: 22px;    
+    }
+
+    &-information {
+        margin-bottom: 44px;
+    }
+
+    &-gallery {
+        margin-bottom: 70px;
+    }
+}

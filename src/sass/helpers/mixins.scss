@@ -1,0 +1,16 @@
+/* --------- Flex continer basic properties -----------*/
+@mixin flexContainer ($jc: flex-start, $ai: flex-start, $fw: nowrap) {
+	display: flex;
+	justify-content: $jc;
+    align-items: $ai;
+    flex-wrap: $fw
+}
+
+/*------------------ Text properties ------------------*/
+
+@mixin formatText ($font-family, $font-size, $font-weight, $line-height) {
+    font-family: $font-family;
+    font-size: $font-size;
+	font-weight: $font-weight;
+	line-height: $line-height;
+}
