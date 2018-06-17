@@ -1,0 +1,38 @@
+.Information {
+
+    &-container {
+        @include flexContainer (space-between);
+        width: 100%;
+    }
+
+    &-item {
+        width: 300px;
+    }
+
+    &-title {
+        @include formatText (inherit, 26px, 400, 26px);
+    }
+
+    &-frame {
+        width: 100%;
+        height: 280px;
+        margin: 0;
+        background: $image-placeholder-color;
+    }
+
+    &-text {
+        @include formatText (inherit, 13px, 400, 18.2px);
+    }
+
+    &--textColor_dark {
+        color: $text-dark-color
+    }
+
+    &-link {
+        line-height: 13px;
+        
+        &--textColor_orange {
+            color: #ff5d30;
+        }
+    }
+}
