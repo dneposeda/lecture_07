@@ -1,0 +1,35 @@
+.Gallery {
+    &-title {
+        @include formatText (inherit, 26px, 400, 26px);
+        margin-top: 0;
+    }
+
+    &-wrapper {
+        @include flexContainer (space-between);
+    }
+
+    &-frontImage {
+        width: 568px;
+        height: 250px;
+        background: $image-placeholder-color;
+        margin: 0;
+    }
+
+    &-previewContainer {
+        @include flexContainer (space-between, none, wrap);
+        align-content: space-between;
+        width: 372px;
+        height: 250px;
+    }
+
+    &-previewItem {
+        width: 120px;
+        height: 120px;
+        margin: 0;
+        background: $image-placeholder-color;
+    }
+
+    &--textColor_dark {
+        color: $text-dark-color;
+    }
+}
