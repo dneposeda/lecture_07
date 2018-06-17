@@ -1,0 +1,22 @@
+.Twitter {
+    @include formatText (inherit, 12px, 400, 25px);
+
+    &-title {
+        @include formatText (inherit, 20px, 400, 24px);
+        margin-top: 0;
+        
+        &--fontStyle_italic {
+            font-style: italic;
+        }
+    }
+
+    &-wrapper {
+        text-align: right;
+    }
+
+    &-link {
+        &--textColor_orange {
+            color: #ff5d30;
+        }
+    }
+}

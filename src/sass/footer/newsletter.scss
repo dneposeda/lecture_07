@@ -1,0 +1,43 @@
+.Newsletter {
+    @include formatText (inherit, 12px, 400, 15px);
+
+    &-title {
+        @include formatText (inherit, 20px, 400, 24px);
+        margin-top: 0;
+        
+        &--fontStyle_italic {
+            font-style: italic;
+        }
+    }
+
+    &-form {
+        @include flexContainer (space-between);
+    }
+
+    &-inputArea {
+        box-sizing: border-box;
+        width: 186px;
+        border: 1px solid #989898;
+        border-radius: 5px;
+        padding: 6px 0 6px 6px;
+    }
+
+    &-submitButton {
+        box-sizing: border-box;
+        border: 1px solid #989898;
+        border-radius: 5px;
+        background-color: #ffffff;
+        padding: 6px 15px;
+        @include formatText ($mainFont, 13px, 400, 16px);
+
+        &--textColor_orange {
+            color: #ff5d30;
+        }
+
+        &--textCase_upper {
+            text-transform: uppercase;
+        }
+    }
+
+    
+}

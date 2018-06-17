@@ -1,0 +1,31 @@
+.Social {
+    &-title {
+        @include formatText (inherit, 20px, 400, 24px);
+
+        &--fontStyle_italic {
+            font-style: italic;
+        }
+    }
+
+    &-container {
+        @include flexContainer (space-between, flex-start, wrap);
+        width: 230px;
+    }
+
+    &-item {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+    &-img {
+        width: 32px;
+        height: 32px;
+        margin-right: 15px;
+        margin-bottom: -11px
+    }
+
+    &-link {
+        @include formatText (inherit, 12px, 400, 14px);
+        display: block;
+    }
+}

@@ -1,0 +1,15 @@
+.Footer {
+    margin-bottom: 40px;
+    
+    &-container {
+        @include flexContainer (space-between);
+    }
+
+    &-item {
+        width: 300px;
+    }
+
+    &--textColor_dark {
+        color: $text-dark-color
+    }
+}
